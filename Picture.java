@@ -57,7 +57,8 @@ public class Picture
         sun.makeVisible();
         
         sun2 = new Circle();
-        sun2.changeColor("green")
+        sun2.changeColor("green");
+        sun2.makeVisible();
     }
 
     /**
