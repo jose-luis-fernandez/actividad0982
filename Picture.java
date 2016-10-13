@@ -76,8 +76,6 @@ public class Picture
         campo.changeSize(1500);
         campo.moveHorizontal(-800);
         campo.moveHorizontal(300);
-        sun.slowMoveVertical(160);
-        campo.makeVisible();
     }
 
     /**
@@ -106,5 +104,10 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    public void movesun()
+    {
+    sun.slowMoveVertical(160);
+    campo.makeVisible();
     }
 }
