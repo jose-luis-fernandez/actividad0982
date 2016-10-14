@@ -17,6 +17,7 @@ public class Picture
     private Circle sun;
     private Circle sun2;
     private Circle campo;
+    private Person persona1;
 
     /**
      * Constructor for objects of class Picture
@@ -114,5 +115,14 @@ public class Picture
     roof.changeColor("black");
     sun.changeColor("black");
     campo.changeColor("black");
+    }
+    
+    public void moveperson()
+    {
+    persona1 = new Person();
+    persona1.moveHorizontal(-230);
+    persona1.moveVertical(30);
+    persona1.makeVisible();
+    persona1.slowMoveHorizontal(70);
     }
 }
