@@ -109,5 +109,10 @@ public class Picture
     {
     sun.slowMoveVertical(160);
     campo.makeVisible();
+    wall.changeColor("black");
+    window.changeColor("white");
+    roof.changeColor("black");
+    sun.changeColor("black");
+    campo.changeColor("black");
     }
 }
